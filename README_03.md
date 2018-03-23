@@ -8,6 +8,15 @@
 
 * Download the simulator and take data in "Training Mode"
 
+**Steps to complete the project:**
+
+*1.Clone the project repo here
+*2.Fill out the TODO's in the project code as mentioned here
+*3.Optimize your network and hyper-parameters.
+*4.Train your network and achieve an accuracy of 40% (0.40) using the Intersection over Union IoU metric which is final_grade_score at the bottom of your notebook.
+*5.Make a brief writeup report summarizing why you made the choices you did in building the network.
+
+
 [//]: # (Image References)
 
 [image1]: ./output/test_mapping.jpg
