@@ -4,10 +4,6 @@
 
 **The goals / steps of this project are the following:**  
 
-**Training / Calibration**  
-
-* Download the simulator and take data in "Training Mode"
-
 **Steps to complete the project:**
 
 * 1.Clone the project repo here
@@ -27,12 +23,17 @@
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
 ---
-### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
+#### 1. Explain each layer of the network architecture and the role that it plays in the overall network. 
+
+#### 2. Explain their neural network parameters including the values selected and how these values were obtained.
+
+#### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
+
+#### 4. Identify the use of various reasons for encoding / decoding images, when it should be used, why it is useful, and any problems that may arise.
+
+#### 5. Clearly articulate whether this model and data would work well for following another object (dog, cat, car, etc.) instead of a human and if not, what changes would be required. 
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
