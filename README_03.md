@@ -19,7 +19,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./output/test_mapping.jpg
+[image1]: ./Image/1.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
