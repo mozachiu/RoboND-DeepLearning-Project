@@ -41,7 +41,9 @@
 The test data provided.
 
 ![alt text][image1]
- * “Fully Convolutional Networks for Semantic Segmentation”, by Long, Shelhamer, and Darrell, all at UC Berkeley.
+
+ “Fully Convolutional Networks for Semantic Segmentation”, by Long, Shelhamer, and Darrell, all at UC Berkeley.
+ 
 
 
 In the function `process_image()`: 
