@@ -20,6 +20,9 @@
 [//]: # (Image References)
 
 [image1]: ./Image/1.png
+[image1]: ./Image/2.png
+[image1]: ./Image/3.png
+[image1]: ./Image/4.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -51,7 +54,7 @@ FCN take advantage of three special techniques :
 
 As a result the network is able to make more precise segmentation decisions.
 
-The problem of FCN may still lost some detail of the image and it ignore the relationship between pixels and lost consistent with the image.
+FCNs may still lost some detail of the image and it ignore the relationship between pixels and lost consistent with the image.
 
 #### 5. Clearly articulate whether this model and data would work well for following another object (dog, cat, car, etc.) instead of a human and if not, what changes would be required. 
 
