@@ -20,9 +20,9 @@
 [//]: # (Image References)
 
 [image1]: ./Image/11.png
-[image1]: ./Image/2.png
-[image1]: ./Image/3.png
-[image1]: ./Image/4.png
+[image2]: ./Image/2.png
+[image3]: ./Image/3.png
+[image4]: ./Image/4.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
