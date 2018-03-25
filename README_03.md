@@ -70,4 +70,4 @@ FCNs may still lost some detail of the image and it ignore the relationship betw
 #### 5. Clearly articulate whether this model and data would work well for following another object (dog, cat, car, etc.) instead of a human and if not, what changes would be required. 
 
 
-
+The model was trained with labeled examples only target person and other people, any other object (dog, cat, car, etc.) instead of a human would not work well. It is necessary to label different object and train it as new model again.
