@@ -30,10 +30,10 @@ FCNs use convolutional layers to classify each pixel in the image to preserve th
 All of FCNs layers are convolutional layers, contrast to a classic Convolution Network which are fully-connected layers at the end.
 The FCN created in this project contains : 
 
-1.Encoder Block
+(1)Encoder Block
   A series of convolutional layers to extract features from the image.
 
-2.Decoder Block
+(2)Decoder Block
   Up-scale the output of the encoder such that it's the same size as the original image.
   
 #### 2. Explain their neural network parameters including the values selected and how these values were obtained.
