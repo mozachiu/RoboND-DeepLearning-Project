@@ -65,6 +65,7 @@ The FCN created in this project contains :
   
 #### 2. Explain their neural network parameters including the values selected and how these values were obtained.
 I have tried different setting to observe the result of score.
+
 (1)Pair of encoder/decoder block:
 
 Using the Hyperparameters as below:
