@@ -69,15 +69,19 @@ Using the Hyperparameters as below:
 
 ![alt text][image9]
 
-![alt text][image6]
+4 Pair of encoder/decoder block:
 
-![alt text][image13]
+![alt text][image6]
 
 ![alt text][image10]
 
 ![alt text][image11]
 
 ![alt text][image12]
+
+So 3 pair of encoder/decoder block is better then 4 pair of encoder/decoder block.
+
+(2)
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
