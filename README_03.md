@@ -35,6 +35,9 @@
 [image14]: ./Image/lr001.png
 [image15]: ./Image/lr001_1.png
 [image16]: ./Image/lr001_s.png
+[image17]: ./Image/bs01.png
+[image18]: ./Image/bs02.png
+[image19]: ./Image/bs03.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -94,6 +97,16 @@ So 3 pair of encoder/decoder block is better then 4 pair of encoder/decoder bloc
 ![alt text][image16]
 
 So learning rate of 0.01 is better then learning rate of 0.001.
+
+(3)Batch Size
+
+![alt text][image17]
+
+![alt text][image18]
+
+![alt text][image19]
+
+
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
