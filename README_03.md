@@ -38,6 +38,12 @@
 [image17]: ./Image/bs01.png
 [image18]: ./Image/bs02.png
 [image19]: ./Image/bs03.png
+[image20]: ./Image/ne1_1.png
+[image21]: ./Image/ne1_2.png
+[image22]: ./Image/ne1_3.png
+[image23]: ./Image/ne2_1.png
+[image24]: ./Image/ne2_2.png
+[image25]: ./Image/ne2_3.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -98,7 +104,7 @@ So 3 pair of encoder/decoder block is better then 4 pair of encoder/decoder bloc
 
 So learning rate of 0.01 is better then learning rate of 0.001.
 
-(3)Batch Size
+(3)Batch Size And Number of Epochs
 
 ![alt text][image17]
 
@@ -107,6 +113,20 @@ So learning rate of 0.01 is better then learning rate of 0.001.
 ![alt text][image19]
 
 It will take more time to get the result for each step.I may choose lower batch size and didn't impact the final result too much.
+
+![alt text][image20]
+
+![alt text][image21]
+
+![alt text][image22]
+
+![alt text][image23]
+
+![alt text][image24]
+
+![alt text][image25]
+
+The larger epochs would let the model start to overfit and get bad performance in the validation set. Tuning the best balance between batch size number of epochs may get better score.
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
