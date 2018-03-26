@@ -55,9 +55,11 @@ The FCN created in this project contains :
 I have tried different setting to observe the result of score.
 (1)Pair of encoder/decoder block:
 
-Hyperparameters
+Using the Hyperparameters as below:
 
 ![alt text][image7]
+
+3 Pair of encoder/decoder block:
 
 ![alt text][image5]
 
