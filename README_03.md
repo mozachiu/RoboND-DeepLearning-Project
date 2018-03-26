@@ -106,7 +106,7 @@ So learning rate of 0.01 is better then learning rate of 0.001.
 
 ![alt text][image19]
 
-
+It will take more time to get the result for each step.I may choose lower batch size and didn't impact the final result too much.
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
