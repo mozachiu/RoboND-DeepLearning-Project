@@ -32,6 +32,9 @@
 [image11]: ./Image/4l.png
 [image12]: ./Image/4l1.png
 [image13]: ./Image/3l1.png
+[image14]: ./Image/lr001.png
+[image15]: ./Image/lr001_1ng
+[image16]: ./Image/lr001_s.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -81,7 +84,16 @@ Using the Hyperparameters as below:
 
 So 3 pair of encoder/decoder block is better then 4 pair of encoder/decoder block.
 
-(2)
+(2)Learning Rate
+
+
+![alt text][image14]
+
+![alt text][image15]
+
+![alt text][image16]
+
+So learning rate of 0.01 is better then learning rate of 0.001.
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
