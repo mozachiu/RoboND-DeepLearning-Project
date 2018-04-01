@@ -44,7 +44,7 @@
 [image23]: ./Image/ne2_1.png
 [image24]: ./Image/ne2_2.png
 [image25]: ./Image/ne2_3.png
-[image26]: ./Image/FCN.png
+[image26]: ./Image/FCN1.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -63,9 +63,17 @@ The FCN created in this project contains :
 
 (2)Decoder Block
   Up-scale the output of the encoder such that it's the same size as the original image.
-  
+
+(3)Detailed diagram of all the layers
+
 ![alt text][image26]  
 
+C1 – C7 : separable convolution layers
+U1 – U3 : upsampling layers
+
+U1 upsample the L4 layer and combine it with the input of the L3 layer C3.
+U2 upsample the L5 layer and combine it with the input of the L2 layer C2.
+U3 upsample the L6 layer and combine it with the input of the L1 layer C1.
   
 #### 2. Explain their neural network parameters including the values selected and how these values were obtained.
 I have tried different setting to observe the result of score.
