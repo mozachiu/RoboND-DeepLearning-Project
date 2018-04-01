@@ -162,7 +162,9 @@ The model was trained with labeled examples only target person and other people,
 #### 6. Future Enhancement
 
 (1) Add Regularization:
+
 Add  regularization will help to prevent overfitting and reduce the error in the network. Training neural network is a high variance problem such that need more reliable training data. Sometimes it’s hard to do this. By adding  regularization such as L2  regularization to the logistic regression is good at such time.
 
 (2) Add Dropout:
+
 Add Dropout is the other way to  prevent overfitting when training neural network. To do this, go through each of the layer of the network add some probability of eliminating a node in  neural network.
