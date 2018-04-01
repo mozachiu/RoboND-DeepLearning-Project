@@ -132,6 +132,7 @@ The larger epochs would let the model start to overfit and get bad performance i
 (4)Dicuss more hyperparameters as below:
 
 **Learning Rate**
+
 The learning rate defines how quickly a network updates its parameters.
 Low learning rate slows down the learning process but converges smoothly. Larger learning rate speeds up the learning but may not converge.
 
