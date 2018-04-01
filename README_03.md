@@ -44,6 +44,7 @@
 [image23]: ./Image/ne2_1.png
 [image24]: ./Image/ne2_2.png
 [image25]: ./Image/ne2_3.png
+[image26]: ./Image/FCN.png
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/1155/view) Points
@@ -62,6 +63,9 @@ The FCN created in this project contains :
 
 (2)Decoder Block
   Up-scale the output of the encoder such that it's the same size as the original image.
+  
+![alt text][image26]  
+
   
 #### 2. Explain their neural network parameters including the values selected and how these values were obtained.
 I have tried different setting to observe the result of score.
