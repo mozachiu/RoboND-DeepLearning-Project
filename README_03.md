@@ -69,6 +69,7 @@ The FCN created in this project contains :
 ![alt text][image26]  
 
 C1 – C7 : separable convolution layers
+
 U1 – U3 : upsampling layers
 
 U1 upsample the L4 layer and combine it with the input of the L3 layer C3.
