@@ -129,7 +129,32 @@ It will take more time to get the result for each step.I may choose lower batch 
 
 The larger epochs would let the model start to overfit and get bad performance in the validation set. Tuning the best balance between batch size number of epochs may get better score.
 
+(4)Dicuss more hyperparameters as below:
 
+**Learning Rate**
+The learning rate defines how quickly a network updates its parameters.
+Low learning rate slows down the learning process but converges smoothly. Larger learning rate speeds up the learning but may not converge.
+
+Usually a decaying Learning rate is preferred.
+
+**Number of epochs**
+
+Number of epochs is the number of times the whole training data is shown to the network while training.
+One forward pass and one backward pass of all the training examples
+
+Increase the number of epochs until the validation accuracy starts decreasing even when training accuracy is increasing(overfitting).
+
+**Batch size**
+
+Batch size is the number of training examples in one forward/backward pass. The higher the batch size, the more memory space you'll need.
+
+**Number of Workers**
+
+Number of Workers is the Number of executors to a Spark job in distributed deep neural network training. Split the data  to each worker and  let them process fewer records. Adding more workers will result in a diminishing return on investment, in terms if accuracy obtainable per unit time for training.
+
+**Validation Set Size**
+
+The validation set is the sample of data used to evaluate a model which provide an unbiased evaluation fit on the training dataset. Using a validation set is a good way to avoid the model from learning from the test set. People tend to set more than 30,000 example for validation that make accuracy have enough resolution to see small improvements.
 
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
