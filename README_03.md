@@ -129,6 +129,8 @@ It will take more time to get the result for each step.I may choose lower batch 
 
 The larger epochs would let the model start to overfit and get bad performance in the validation set. Tuning the best balance between batch size number of epochs may get better score.
 
+
+
 #### 3. Demonstrate a clear understanding of 1 by 1 convolutions and where/when/how it should be used. 
 To preserve the spatial information, replacing a fully connected layer with one by one convolutional layers which output value with the tensor and remain 4D instead of flattening to 2D.
 
@@ -156,3 +158,11 @@ FCNs may still lost some detail of the image and it ignore the relationship betw
 
 
 The model was trained with labeled examples only target person and other people, any other object (dog, cat, car, etc.) instead of a human would not work well. It is necessary to label different object and train it as new model again.
+
+#### 6. Future Enhancement
+
+(1) Add Regularization:
+Add  regularization will help to prevent overfitting and reduce the error in the network. Training neural network is a high variance problem such that need more reliable training data. Sometimes it’s hard to do this. By adding  regularization such as L2  regularization to the logistic regression is good at such time.
+
+(2) Add Dropout:
+Add Dropout is the other way to  prevent overfitting when training neural network. To do this, go through each of the layer of the network add some probability of eliminating a node in  neural network.
